@@ -18,12 +18,18 @@ export default function Projects() {
                             <h1 className='mt-3 p-4 text-white text-8xl'>
                                 Project 1
                             </h1>
+                            <image src=""></image>
                             <p className='p-5 text-white'>
                                 Description 1
                             </p>
                             <a href="" target='_blank' rel="">
                                 <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-violet-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-violet-950">
-                                    Test 1
+                                    Test 1 Demo
+                                </button>
+                            </a>
+                            <a href="" target='_blank' rel="">
+                                <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-violet-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-violet-950">
+                                    Test 1 Repo
                                 </button>
                             </a>
                         </div>
@@ -31,12 +37,18 @@ export default function Projects() {
                             <h1 className='mt-3 p-4 text-white text-8xl'>
                                 Project 2
                             </h1>
+                            <image src=""></image>
                             <p className='p-5 text-white'>
                                 Description 2
                             </p>
                             <a href="" target='_blank' rel="">
                                 <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-violet-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-violet-950">
-                                    Test 2
+                                    Test 2 Demo
+                                </button>
+                            </a>
+                            <a href="" target='_blank' rel="">
+                                <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-violet-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-violet-950">
+                                    Test 2 Repo
                                 </button>
                             </a>
                         </div>
@@ -44,12 +56,18 @@ export default function Projects() {
                             <h1 className='mt-3 p-4 text-white text-8xl'>
                                 Project 3
                             </h1>
+                            <image src=""></image>
                             <p className='p-5 text-white'>
                                Description 3
                             </p>
                             <a href="" target='_blank' rel="">
                                 <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-violet-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-violet-950">
-                                    Test 3
+                                    Test 3 Demo
+                                </button>
+                            </a>
+                            <a href="" target='_blank' rel="">
+                                <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-violet-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-violet-950">
+                                    Test 3 Repo
                                 </button>
                             </a>
                         </div>
