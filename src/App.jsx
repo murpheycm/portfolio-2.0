@@ -1,6 +1,6 @@
 import './App.css';
 import './index.css';
-import NavBar from '';
+import Navbar from '../components/Navbar.jsx';
 import Header from '';
 import About from '';
 import Projects from '';
@@ -47,7 +47,7 @@ function App() {
       <section id='home'>
         <div className='w-100 h-100 bg-gradient-to-b from-indigo-950 to-violet-700'>
           <div>
-            <NavBar />
+            <Navbar />
           </div>
           <div>
             <Header />
