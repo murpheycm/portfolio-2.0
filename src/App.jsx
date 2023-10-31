@@ -1,11 +1,11 @@
 import './App.css';
 import './index.css';
-import Navbar from '../components/Navbar.jsx';
-import Header from '';
-import About from '';
-import Projects from '';
-import Contact from '';
-import Footer from '';
+import Navbar from './components/Navbar.jsx';
+import Header from './components/Header.jsx';
+import About from './components/About.jsx';
+import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 import React, { useState, useEffect } from 'react';
 
 function App() {
