@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="bg-purple text-white">
             <div className="container flex items-center justify-between">
               {/* Logo */}
-              <a className='logo text-white' href='#home'>Mackenzie Murphey</a>
+              <a className='logo text-white text-3xl' href='#home'>Mackenzie Murphey</a>
               {/* Navbar */}
               <nav className='navbar flex justify-between items-center'>
                 <div id='navbar' className={`flex items-center text-sm`}>
@@ -16,9 +16,8 @@ export default function Navbar() {
                 </div>
                 {/* Social Media*/}
                 <div className={`flex items-center`}>
-                  <a href="" target='_blank' rel="" className='p-5 text-white text-xl hover:text-blue-400 transition duration-500'><i className="fa-brands fa-github-alt"></i></a>
-                  <a href="" target='_blank' rel="" className='p-5 text-white text-xl hover:text-blue-400 transition duration-500'><i className="fa-brands fa-instagram"></i></a>
-                  <a href="" target='_blank' rel="" className='p-5 text-white text-xl hover:text-blue-400 transition duration-500'><i className="fa-brands fa-linkedin-in"></i></a>
+                  <a href="https://github.com/murpheycm" target='_blank' rel="" className='p-5 text-white text-xl hover:text-blue-400 transition duration-500'><i className="fa-brands fa-github-alt"></i></a>
+                  <a href="https://www.linkedin.com/in/mackenzie-murphey-mph-15554829/" target='_blank' rel="" className='p-5 text-white text-xl hover:text-blue-400 transition duration-500'><i className="fa-brands fa-linkedin-in"></i></a>
                 </div>
               </nav>
             </div>

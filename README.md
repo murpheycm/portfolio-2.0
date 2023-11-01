@@ -40,6 +40,4 @@ Portfolio created with React
 > THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) <br>
 
 ## Usage
-
-
-## Installation
+![alt text="Screenshot"](./public/images/screenshot.JPG)
