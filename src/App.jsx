@@ -1,11 +1,11 @@
 import './App.css';
 import './index.css';
-import Navbar from './components/Navbar.jsx';
-import Header from './components/Header.jsx';
-import About from './components/About.jsx';
-import Projects from './components/Projects.jsx';
-import Contact from './components/Contact.jsx';
-import Footer from './components/Footer.jsx';
+import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import React, { useState, useEffect } from 'react';
 
 function App() {
@@ -43,7 +43,6 @@ function App() {
   // }, []);
 
   return (
-    <>
       <section id='home'>
         <div className='w-100 h-100 bg-gradient-to-b from-indigo-950 to-violet-700'>
           <div>
@@ -72,7 +71,6 @@ function App() {
           )} */}
         </div>
       </section>
-    </>
   );
 }
 

@@ -2,8 +2,7 @@ import React from 'react';
 
 export default function Projects() {
     return (
-      <>
-          <section id='about'>
+          <section id='projects'>
                 <div className="flex">
                     <div className="w-screen h-auto">
                         <div className="w-3/6 m-auto">
@@ -18,7 +17,7 @@ export default function Projects() {
                             <h1 className='mt-3 p-4 text-white text-8xl'>
                                 Project 1
                             </h1>
-                            <image src=""></image>
+                            <img src="/logo.png"></img>
                             <p className='p-5 text-white'>
                                 Description 1
                             </p>
@@ -37,7 +36,7 @@ export default function Projects() {
                             <h1 className='mt-3 p-4 text-white text-8xl'>
                                 Project 2
                             </h1>
-                            <image src=""></image>
+                            <img src="/logo.png"></img>
                             <p className='p-5 text-white'>
                                 Description 2
                             </p>
@@ -56,7 +55,7 @@ export default function Projects() {
                             <h1 className='mt-3 p-4 text-white text-8xl'>
                                 Project 3
                             </h1>
-                            <image src=""></image>
+                            <img src="/logo.jpg"></img>
                             <p className='p-5 text-white'>
                                Description 3
                             </p>
@@ -74,6 +73,5 @@ export default function Projects() {
                     </div>
                 </div>
               </section>
-      </>
     )
 };
