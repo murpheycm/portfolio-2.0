@@ -61,9 +61,9 @@ export default function Projects() {
                             <p className='p-5 text-white'>
                                A react app for discovering mixed drinks in your area.
                             </p>
-                            <a href="" target='_blank' rel="">
+                            <a href="https://stark-hollows-24341-bcd3c1cc7ff9.herokuapp.com/" target='_blank' rel="">
                                 <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-blue-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-blue-950">
-                                    Demo Coming Soon!
+                                    Demo
                                 </button>
                             </a>
                             <a href="https://github.com/iggy-ziggy/Nightcap-V2" target='_blank' rel="">
