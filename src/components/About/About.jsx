@@ -10,7 +10,7 @@ export default function About() {
                         <p className='text-white text-center mt-5'>
                             It's Me! Mackenzie!<br></br>
                             Made with Coffee in Richmond, VA.<br></br>
-                            Biology Nerd with a love for brain puzzles, regular puzzles, and design.<br></br>
+                            Biology nerd with a love for brain puzzles, regular puzzles, design, and bad AI-generated images.<br></br>
                             A full-stack web developer with a background in Microbiology, DNA Sequencing, and Bioinformatics.<br></br>
                             The majority of my programming experience is in front-end web development, data analysis and engineering, and SQL database administration.<br></br>
                             I aim to help businesses by creating user-centric design and experiences.<br></br>

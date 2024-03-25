@@ -19,9 +19,9 @@ export default function Projects() {
                             </h1>
                             <img src="./images/musikero.jpg" alt="Musikero App" className='w-48 h-48 mx-auto' ></img>
                             <p className='p-5 text-white'>
-                            A music app that allows users to search for artists of interest 
-                            <br></br> 
-                            and view similar artists, a sample playlist, and tour dates.
+                                A music app that allows users to search for artists of interest 
+                                {/* <br></br>  */}
+                                and view similar artists, a sample playlist, and tour dates.
                             </p>
                             <a href="https://murpheycm.github.io/artist-search-API/" target='_blank' rel="">
                                 <button type='button' className="inline-block mb-10 lg:mb-10 rounded-full shadow-2xl bg-blue-700 px-6 pb-2 pt-2.5 text-lg text-white transition duration-200 ease-in hover:bg-blue-950">
