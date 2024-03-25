@@ -14,9 +14,9 @@ export default function Header() {
                 Hey There!
               </h5>
               <p className="mb-4 text-base text-white text-center">
-                Welcome to my Portfolio!<br></br>
-                Take a look around, <br></br>
-                I hope you enjoy it!
+                Welcome to <i>the</i> Portfolio!<br></br>
+                Don't be a stranger and reach out if you like the work you see!<br></br>
+                XO - Mack
               </p>
             </div>
           </div>

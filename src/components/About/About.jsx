@@ -8,10 +8,14 @@ export default function About() {
                     <div className="w-3/6 m-auto">
                         <h1 className='text-white text-center text-4xl'>Welcome!</h1>
                         <p className='text-white text-center mt-5'>
-                            My name is Mackenzie and I am a full-stack web developer and recent graduate of the University of Richmond's Full-Stack Web Development Bootcamp.<br></br>
-                            The majority of my experience is in front-end web development and database management.<br></br>
-                            Areas of interest which you will see, include: UX Design, Photography, Data Analyses and Visualization, and fun with CSS.
-                            Explore my work below!
+                            It's Me! Mackenzie!<br></br>
+                            Made with Coffee in Richmond, VA.<br></br>
+                            Biology Nerd with a love for brain puzzles, regular puzzles, and design.<br></br>
+                            A full-stack web developer with a background in Microbiology, DNA Sequencing, and Bioinformatics.<br></br>
+                            The majority of my programming experience is in front-end web development, data analysis and engineering, and SQL database administration.<br></br>
+                            I aim to help businesses by creating user-centric design and experiences.<br></br>
+                            Areas of interest, which you will see below, include: UX Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
+                            Take a gander and reach out if you would like to talk more!
                         </p>
                     </div>
                 </div>
