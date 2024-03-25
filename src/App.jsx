@@ -64,11 +64,11 @@ function App() {
             <Footer />
           </div>
     
-          {showScroll && (
+          {/* {showScroll && (
             <div className="scrollTop" onClick={scrollTop}>
               <i class="fa-solid fa-caret-up"></i>
             </div>
-          )}
+          )} */}
         </div>
       </section>
   );
