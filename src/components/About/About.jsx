@@ -8,9 +8,10 @@ export default function About() {
                     <div className="w-3/6 m-auto">
                         <h1 className='text-white text-center text-4xl'>Welcome!</h1>
                         <p className='text-white text-center mt-5'>
-                            My name is Mackenzie and I am a full-stack web developer and recent graduate of the University of Richmond's Full-Stack Web Developer bootcamp.<br></br>
+                            My name is Mackenzie and I am a full-stack web developer and recent graduate of the University of Richmond's Full-Stack Web Development Bootcamp.<br></br>
                             The majority of my experience is in front-end web development and database management.<br></br>
-                            See my work and experience below!
+                            Areas of interest which you will see, include: UX Design, Photography, Data Analyses and Visualization, and fun with CSS.
+                            Explore my work below!
                         </p>
                     </div>
                 </div>
