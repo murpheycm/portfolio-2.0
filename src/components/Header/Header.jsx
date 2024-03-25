@@ -6,7 +6,7 @@ export default function Header() {
           <div className="flex flex-col rounded-lg bg-gradient-to-tr from-violet-700 to-fuchsia-400 shadow-2xl dark:bg-neutral-700 md:max-w-xl md:flex-row">
             <img
               className="h-50 w-full object-cover shadow-[20px_0_30px_0_rgba(0,0,0,0.9)] rounded-t-lg md:h-full md:w-48 md:rounded-l-lg"
-              src="./images/avatar.jpg"
+              src="./images/Portfolio_Image.jpg"
               alt="Mackenzie Murphey" />
             <div className="flex flex-col justify-start p-6">
               <h5
