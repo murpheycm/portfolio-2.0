@@ -44,7 +44,7 @@ function App() {
 
   return (
       <section id='home'>
-        <div className='w-100 h-100 bg-gradient-to-b from-indigo-950 to-violet-700'>
+        <div className='w-100 h-100 bg-gradient-to-b from-#581845 to-#DAF7A6'>
           <div>
             <Navbar />
           </div>
