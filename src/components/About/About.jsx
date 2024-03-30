@@ -9,7 +9,7 @@ export default function About() {
                         <h1 className='text-white text-center text-4xl'>Welcome!</h1>
                         <div>
                             <img 
-                                src="./images/MM.png" >
+                                src="" >
                                 alt="Image of DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything.
                             </img>
                         </div>
