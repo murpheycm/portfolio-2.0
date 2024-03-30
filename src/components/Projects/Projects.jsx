@@ -57,7 +57,7 @@ export default function Projects() {
                             <h1 className='p-5 text-white text-4xl tracking-tight font-bold text-center'>
                                 Nightcap Cocktail App
                             </h1>
-                            <img src="./images/nightcap.JPG" alt="Nightcap App" className='w-48 h-48 mx-auto'></img>
+                            <img src="./images/nightcap.jpg" alt="Nightcap App" className='w-48 h-48 mx-auto'></img>
                             <p className='p-5 text-white'>
                                A react app for discovering mixed drinks in your area.
                             </p>
