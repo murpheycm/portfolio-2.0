@@ -29,13 +29,13 @@ export default function About() {
             {/* Cards*/}
             <div className="grid-cols-1 lg:grid-cols-4">
                 <div className="block justify-around space-y-10 space-x-0 mt-32 lg:flex lg:space-x-10 lg:mr-4 lg:ml-4 lg:space-y-0">
-                    <div className="w-screen bg-gradient-to-br from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    <div className="w-screen bg-gradient-to-t from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-js"></i>
                         </h1>
                         <p className='p-5 text-white'>Javascript</p>
                     </div>
-                    <div className="w-screen bg-gradient-to-br from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    <div className="w-screen bg-gradient-to-t from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-python"></i>
                         </h1>
@@ -43,7 +43,7 @@ export default function About() {
                             Python
                         </p>
                     </div>
-                    <div className="w-screen bg-gradient-to-br from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    <div className="w-screen bg-gradient-to-t from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-html5"></i>
                         </h1>
@@ -51,7 +51,7 @@ export default function About() {
                             HTML/CSS
                         </p>
                     </div>
-                    <div className="w-screen bg-gradient-to-br from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    <div className="w-screen bg-gradient-to-t from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-react"></i>
                         </h1>
@@ -59,7 +59,7 @@ export default function About() {
                             React
                         </p>
                     </div>
-                    {/* <div className="w-screen bg-gradient-to-br from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    {/* <div className="w-screen bg-gradient-to-t from-slate-800 to-rose-500 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa fa-github"></i>
                         </h1>
