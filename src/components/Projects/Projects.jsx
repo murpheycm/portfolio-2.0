@@ -18,7 +18,7 @@ export default function Projects() {
                             <h1 className='mt-3 p-4 text-black text-4xl tracking-tight font-bold text-center'>
                                 Musikero App
                             </h1>
-                            <img src="" alt="Musikero App" className='w-48 h-48 mx-auto' />
+                            <img src="./images/musikero.jpg" alt="Musikero App" className='w-48 h-48 mx-auto'></img>
                             <p className='p-5 text-black'>
                                 A music app that allows users to search for artists of interest 
                                 and view similar artists, a sample playlist, and tour dates.
@@ -57,7 +57,7 @@ export default function Projects() {
                             <h1 className='p-5 text-black text-4xl tracking-tight font-bold text-center'>
                                 Nightcap Cocktail App
                             </h1>
-                            <img src="./images/nightcap.jpg" alt="Nightcap App" className='w-48 h-48 mx-auto'></img>
+                            <img src="./images/nightcap.JPG" alt="Nightcap App" className='w-48 h-48 mx-auto'></img>
                             <p className='p-5 text-black'>
                                A react app for discovering mixed drinks in your area.
                             </p>
