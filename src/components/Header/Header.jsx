@@ -4,7 +4,7 @@ import React from 'react';
 export default function Header() {
   return (
       <div className="flex">
-          <div className="flex flex-col rounded-md bg-gradient-to-b from-orange-50 to-orange-200 shadow-1xl dark:bg-neutral-600 md:max-w-xl md:flex-row">
+          <div className="flex flex-col rounded-md bg-gradient-to-b from-orange-200 to-rose-300 shadow-1xl dark:bg-neutral-600 md:max-w-xl md:flex-row">
             <img
               className="h-50 w-full object-cover shadow-[20px_0_30px_0_rgba(0,0,0,0.9)] rounded-t-lg md:h-full md:w-48 md:rounded-l-lg"
               src='../public/images/Portfolio_Image.jpg'
@@ -16,7 +16,9 @@ export default function Header() {
               </h5>
               <p className="mb-4 text-base text-black text-center">
                 Welcome to <i>the</i> Portfolio!<br></br>
-                Don't be a stranger and reach out if you like the work you see!<br></br>
+                Tired of unnecessarily extravagant web design that lags? <br></br>
+                Flabbergasted by your experience with modern websites? <br></br>
+                Me too! Glad we found each other! <br></br>
                 XO - Mack
               </p>
             </div>

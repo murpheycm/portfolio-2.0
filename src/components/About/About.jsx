@@ -13,7 +13,7 @@ export default function About() {
                                 alt="Image of DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." />
                         </div>
                         <p className='text-white text-center mt-5'>
-                            It's Me! Mackenzie!<br></br>
+                            It's me, Mackenzie!<br></br>
                             Made with Coffee in Richmond, VA.<br></br>
                             Biology nerd with a love for brain puzzles, regular puzzles, design, and bad AI-generated images.<br></br>
                             A full-stack web developer with a background in Microbiology, DNA Sequencing, and Bioinformatics.<br></br>
@@ -26,15 +26,16 @@ export default function About() {
                 </div>
             </div>
             {/* Cards*/}
+          
             <div className="grid-cols-1 lg:grid-cols-4">
-                <div className="block justify-around space-y-10 space-x-0 mt-32 lg:flex lg:space-x-10 lg:mr-4 lg:ml-4 lg:space-y-0">
-                    <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                <div className=" bg-gradient-to-b from-orange-200 to-rose-300 block justify-around space-y-10 space-x-0 mt-32 lg:flex lg:space-x-0  lg:space-y-0">
+                    <div className="w-screen p-10 text-center lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-js"></i>
                         </h1>
                         <p className='p-5 text-white'>Javascript</p>
                     </div>
-                    <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    <div className="w-screen p-10 text-center lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-python"></i>
                         </h1>
@@ -42,7 +43,7 @@ export default function About() {
                             Python
                         </p>
                     </div>
-                    <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    <div className="w-screen p-10 text-center lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-html5"></i>
                         </h1>
@@ -50,7 +51,7 @@ export default function About() {
                             HTML/CSS
                         </p>
                     </div>
-                    <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    <div className="w-screen p-10 text-center lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa-brands fa-react"></i>
                         </h1>
@@ -58,7 +59,7 @@ export default function About() {
                             React
                         </p>
                     </div>
-                    {/* <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
+                    {/* <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 text-center rounded-lg lg:w-auto">
                         <h1 className='mt-3 p-4 text-white text-8xl'>
                             <i className="fa fa-github"></i>
                         </h1>
