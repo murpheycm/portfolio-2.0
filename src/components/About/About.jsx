@@ -4,8 +4,8 @@ export default function About() {
     return (
         <section id='about'>
             <div className="flex">
-                <div className="grid grid-cols-2 gap-4 w-screen h-auto">
-                    <div className="w-3/6 m-auto p-10">
+                <div className="flex flex-wrap mb-4 w-screen h-auto">
+                    <div className="w-2/3 m-auto pt-10 pb-10">
                         <h1 className='text-white text-center text-4xl'>Welcome!</h1>
                         <p className='text-white text-center mt-5'>
                             It's me, Mackenzie!<br></br>
@@ -21,7 +21,7 @@ export default function About() {
                     <div>
                         <img 
                             src="./images/MM.png"
-                            className="rounded-full" 
+                            className="w-1/3 rounded-full items-center" 
                             alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
                     </div>
                 </div>
