@@ -1,5 +1,4 @@
 import React from 'react';
-// import Portfolio from "./images/MM.png";
 
 export default function Header() {
   return (
