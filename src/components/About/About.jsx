@@ -20,7 +20,8 @@ export default function About() {
                     </div>
                     <div>
                         <img 
-                            src="./images/MM.png" 
+                            src="./images/MM.png"
+                            className="rounded-full" 
                             alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
                     </div>
                 </div>
