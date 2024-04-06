@@ -5,12 +5,12 @@ export default function About() {
         <section id='about'>
             <div className="flex">
                 <div className="w-screen h-auto">
-                    <div className="w-3/6 m-auto">
+                    <div className="w-3/6 m-auto p-10">
                         <h1 className='text-white text-center text-4xl'>Welcome!</h1>
                         <div>
                             <img 
-                                src="../public/images/MM.png" 
-                                alt="Image of DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." />
+                                src="/images/screenshot.JPG" 
+                                alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." />
                         </div>
                         <p className='text-white text-center mt-5'>
                             It's me, Mackenzie!<br></br>
