@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section id='about'>
             <div className="flex">
-                <div className="grid-cols-1 md:grid-cols-2 w-screen h-auto">
+                <div className="columns-2 gap-8 w-screen h-auto">
                     <div className="w-3/6 m-auto p-10">
                         <h1 className='text-white text-center text-4xl'>Welcome!</h1>
                         <p className='text-white text-center mt-5'>
