@@ -4,14 +4,8 @@ export default function About() {
     return (
         <section id='about'>
             <div className="flex">
-                <div className="flex flex-wrap mb-4 w-screen h-auto">
-                    <div className=" m-auto pt-10 pb-10">
-                        <img 
-                            src="./images/MM.png"
-                            id='about_image'
-                            className="float-right rounded-full mx-auto" 
-                            alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
-                        
+                <div className="cols-2 flex flex-wrap mb-4 w-screen h-auto">
+                    <div className="w-1/2 m-auto pt-10 pb-10">
                         <h1 className='text-white text-right text-4xl'>Welcome!</h1>
                         <p className='text-white text-right mt-5'>
                             It's me, Mackenzie!<br></br>
@@ -23,6 +17,13 @@ export default function About() {
                             Areas of interest, which you will see below, include: UX Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
                             Take a gander and reach out if you would like to talk more!
                         </p>
+                    </div>
+                    <div className="w-1/2">
+                        <img 
+                            src="./images/MM.png"
+                            id='about_image'
+                            className="rounded-full mx-auto" 
+                            alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
                     </div>
                 </div>
             </div>
