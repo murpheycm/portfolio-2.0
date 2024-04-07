@@ -4,5 +4,6 @@
 
 
 .about_image {
-    shape-outside: circle(50%);
+    shape-outside: circle(80%);
+    margin-left: 2%
 }
