@@ -5,9 +5,15 @@ export default function About() {
         <section id='about'>
             <div className="flex">
                 <div className="flex flex-wrap mb-4 w-screen h-auto">
-                    <div className="w-2/3 m-auto pt-10 pb-10">
-                        <h1 className='text-white text-center text-4xl'>Welcome!</h1>
-                        <p className='text-white text-center mt-5'>
+                    <div className=" m-auto pt-10 pb-10">
+                        <img 
+                            src="./images/MM.png"
+                            id='about_image'
+                            className="float-right rounded-full mx-auto" 
+                            alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
+                        
+                        <h1 className='text-white text-right text-4xl'>Welcome!</h1>
+                        <p className='text-white text-right mt-5'>
                             It's me, Mackenzie!<br></br>
                             Made with Coffee in Richmond, VA.<br></br>
                             Biology nerd with a love for brain puzzles, regular puzzles, design, and bad AI-generated images.<br></br>
@@ -17,12 +23,6 @@ export default function About() {
                             Areas of interest, which you will see below, include: UX Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
                             Take a gander and reach out if you would like to talk more!
                         </p>
-                    </div>
-                    <div>
-                        <img 
-                            src="./images/MM.png"
-                            className="w-1/3 rounded-full items-center" 
-                            alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
                     </div>
                 </div>
             </div>

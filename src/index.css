@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.about_image {
+    shape-outside: circle(50%);
+}
