@@ -4,11 +4,11 @@ export default function About() {
     return (
         <section id='about'>
             <div className="flex">
-                <div className="cols-2 flex flex-wrap mb-4 w-screen h-auto">
-                    <div className="w-1/2 m-auto pt-10 pb-10">
+                <div className="flex flex-wrap mb-4 w-screen h-auto">
+                    <div className="m-auto pt-10 pb-10">
                         <h1 className='text-white text-right text-4xl'>Welcome!</h1>
                         <p className='text-white text-right mt-5'>
-                            It's me, Mackenzie!<br></br>
+                            It's me! Mackenzie!<br></br>
                             Made with Coffee in Richmond, VA.<br></br>
                             Biology nerd with a love for brain puzzles, regular puzzles, design, and bad AI-generated images.<br></br>
                             A full-stack web developer with a background in Microbiology, DNA Sequencing, and Bioinformatics.<br></br>
@@ -19,7 +19,7 @@ export default function About() {
                             XO - Mack
                         </p>
                     </div>
-                    <div className="w-1/2">
+                    <div className="">
                         <img 
                             src="./images/mm_retro.png"
                             id='about_image'
