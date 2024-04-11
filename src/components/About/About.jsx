@@ -4,8 +4,8 @@ export default function About() {
     return (
         <section id='about'>
             <div className="flex">
-                <div className="flex flex-wrap mb-4 w-screen h-auto">
-                    <div className="m-auto pt-10 pb-10">
+                <div className="cols-2 flex flex-wrap mb-4 w-screen h-auto">
+                    <div className="w-1/2 flex flex-wrap m-auto pt-10 pb-10">
                         <h1 className='text-white text-right text-4xl'>Welcome!</h1>
                         <p className='text-white text-right mt-5'>
                             It's me! Mackenzie!<br></br>
@@ -19,7 +19,7 @@ export default function About() {
                             XO - Mack
                         </p>
                     </div>
-                    <div className="">
+                    <div className="w-1/2 flex flex-wrap">
                         <img 
                             src="./images/mm_retro.png"
                             id='about_image'
