@@ -16,11 +16,12 @@ export default function About() {
                             I aim to help businesses by creating user-centric design and experiences.<br></br>
                             Areas of interest, which you will see below, include: UX Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
                             Take a gander and reach out if you would like to talk more!
+                            XO - Mack
                         </p>
                     </div>
                     <div className="w-1/2">
                         <img 
-                            src="./images/MM.jpg"
+                            src="./images/mm_retro.png"
                             id='about_image'
                             className="rounded-full mx-auto" 
                             alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
