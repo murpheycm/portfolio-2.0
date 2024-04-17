@@ -79,8 +79,9 @@ export default function Projects() {
                         <li class="card" id="card-1">
                             <div class="card-content">
                             <div>
-                                <h2>Card One</h2>
-                                <p>This is the content of card one. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h2>Musikero</h2>
+                                <p>A music app that allows users to search for artists of interest 
+                                and view similar artists, a sample playlist, and tour dates.</p>
                             </div>
                             <figure>
                                 <img src="./images/musikero.jpg" alt="card-one"></img>
@@ -91,8 +92,8 @@ export default function Projects() {
                         <li class="card" id="card-2">
                             <div class="card-content">
                             <div>
-                                <h2>Card Two</h2>
-                                <p>This is the content of card two. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h2>Lost Threads</h2>
+                                <p>A forum-based website catering to abandoned locations throughout Virginia.</p>
                             </div>
                             <figure>
                                 <img src="./images/lost-threads.jpg" alt="card two"></img>
@@ -103,8 +104,8 @@ export default function Projects() {
                         <li class="card" id="card-3">
                             <div class="card-content">
                             <div>
-                                <h2>Card Three</h2>
-                                <p>This is the content of card three. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h2>NightCap</h2>
+                                <p> A react app for discovering mixed drinks in your area.</p>
                             </div>
                             <figure>
                                 <img src="./images/nightcap.JPG" alt="card three"></img>
@@ -115,7 +116,7 @@ export default function Projects() {
                         <li class="card" id="card-4">
                             <div class="card-content">
                             <div>
-                                <h2>Card Four</h2>
+                                <h2>Book Search</h2>
                                 <p>This is the content of card four. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                             <figure>

@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
     return (
         <section id='contact'>
-            <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <div className="py-8 lg:py-16 px-4 mx-auto mt-30 max-w-screen-md">
                 <div className='bg-gradient-to-b from-orange-50 to-orange-200 shadow-black shadow-2xl text-center rounded-lg lg:w-auto'>
                     <div className="p-6">
                         <h2 className="p-4 mb-4 text-4xl tracking-tight font-extrabold text-center text-black">
