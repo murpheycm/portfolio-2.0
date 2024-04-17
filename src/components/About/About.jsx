@@ -19,7 +19,7 @@ export default function About() {
                             XO - Mack
                         </p>
                     </div>
-                    <div className="items-center">
+                    <div className="items-center my-auto mx-auto">
                         <img 
                             src="./images/mm_retro.png"
                             id='about_image'

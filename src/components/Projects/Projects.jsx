@@ -12,7 +12,7 @@ export default function Projects() {
                     </div>
                 </div>
                 {/* Cards*/}
-                <div className="grid-cols-1 lg:grid-cols-4">
+                {/* <div className="grid-cols-1 lg:grid-cols-4">
                     <div className="block justify-around space-y-10 space-x-0 mt-32 lg:flex lg:space-x-10 lg:mr-4 lg:ml-4 lg:space-y-0">
                         <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 shadow-black shadow-2xl text-center rounded-lg lg:w-auto">
                             <h1 className='mt-3 p-4 text-black text-4xl tracking-tight font-bold text-center'>
@@ -73,6 +73,57 @@ export default function Projects() {
                             </a>
                         </div>
                     </div>
+                </div> */}
+                <div className="cards">
+                    <ul id="cards">
+                        <li class="card" id="card-1">
+                            <div class="card-content">
+                            <div>
+                                <h2>Card One</h2>
+                                <p>This is the content of card one. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <figure>
+                                <img src="./images/musikero.jpg" alt="card-one"></img>
+                            </figure>
+                            </div>
+                        </li>
+
+                        <li class="card" id="card-2">
+                            <div class="card-content">
+                            <div>
+                                <h2>Card Two</h2>
+                                <p>This is the content of card two. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <figure>
+                                <img src="./images/lost-threads.jpg" alt="card two"></img>
+                            </figure>
+                            </div>
+                        </li>
+
+                        <li class="card" id="card-3">
+                            <div class="card-content">
+                            <div>
+                                <h2>Card Three</h2>
+                                <p>This is the content of card three. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <figure>
+                                <img src="./images/nightcap.JPG" alt="card three"></img>
+                            </figure>
+                            </div>
+                        </li>
+
+                        <li class="card" id="card-4">
+                            <div class="card-content">
+                            <div>
+                                <h2>Card Four</h2>
+                                <p>This is the content of card four. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <figure>
+                                <img src="./images/MM.jpg" alt="card four"></img>
+                            </figure>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
               </section>
     )
