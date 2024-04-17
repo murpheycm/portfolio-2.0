@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-      <div className="flex flex-row justify-items-center">
+      <div className="flex flex-row mx-auto">
           {/* <div className="bg-gradient-to-b from-orange-200 to-rose-300 shadow-1xl dark:bg-neutral-600 max-w-screen">
             <img
               className="object-center max-w-screen"
