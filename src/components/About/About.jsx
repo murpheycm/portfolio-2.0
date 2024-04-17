@@ -5,7 +5,7 @@ export default function About() {
         <section id='about'>
             <div className="flex">
                 <div className="flex flex-row mb-4 w-screen h-auto">
-                    <div className="items-center m-auto pt-10 pb-10">
+                    <div className="items-center m-5 pt-10 pb-10">
                         <h1 className='text-white text-center text-4xl'>Welcome!</h1>
                         <p className='text-white text-center mt-5'>
                             It's me! Mackenzie!<br></br>
@@ -23,7 +23,7 @@ export default function About() {
                         <img 
                             src="./images/mm_retro.png"
                             id='about_image'
-                            className="mx-auto" 
+                            className="mx-5" 
                             alt="DNA sequencing which includes a mountain, bacteria, phage, and bird to symbolize how DNA encompasses everything." ></img>
                     </div>
                 </div>
