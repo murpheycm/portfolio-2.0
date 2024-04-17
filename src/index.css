@@ -4,7 +4,7 @@
 
 :root {
     --card-height: 40vw;
-    --card-margin: 2vw;
+    --card-margin: 8vw;
     --card-top-offset: 1em;
     --numcards: 4;
     --outline-width: 0px;
