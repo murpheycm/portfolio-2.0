@@ -6,8 +6,8 @@ export default function About() {
             <div className="flex">
                 <div className="flex flex-row mb-4 w-screen h-auto">
                     <div className="items-center m-5 pt-10 pb-10">
-                        <h1 className='text-white text-center text-4xl'>Welcome!</h1>
-                        <p className='text-white text-center mt-5'>
+                        <h1 className='text-white text-right text-4xl'>Welcome!</h1>
+                        <p className='text-white text-right mt-5'>
                             It's me! Mackenzie!<br></br>
                             Made with Coffee in Richmond, VA.<br></br>
                             Biology nerd with a love for brain puzzles, regular puzzles, design, and bad AI-generated images.<br></br>
