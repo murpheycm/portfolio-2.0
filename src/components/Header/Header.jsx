@@ -5,7 +5,7 @@ export default function Header() {
       <div className="flex">
           <div className="bg-gradient-to-b from-orange-200 to-rose-300 shadow-1xl dark:bg-neutral-600 max-w-screen">
             <img
-              className="object-fill max-w-screen"
+              className="object-center max-w-screen"
               src="./images/MM.jpg"
               alt="" ></img>
           </div>
