@@ -11,27 +11,28 @@ export default function Header() {
           </div> */}
           <div>
             <svg viewBox="0 0 75 75" width="200px">
-              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="2" fill="white" />
+              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="0.5" fill="white" />
             </svg>
           </div>
           <div>
             <svg viewBox="0 0 75 75" width="200px">
-              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="2" fill="white" />
+              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="0.5" fill="white" />
+              <img src='./images/MM.jpg' alt=''></img>
             </svg>
           </div>
           <div>
             <svg viewBox="0 0 75 75" width="200px">
-              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="2" fill="white" />
+              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="0.5" fill="white" />
             </svg>
           </div>
           <div>
             <svg viewBox="0 0 75 75" width="200px">
-              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="2" fill="white" />
+              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="0.5" fill="white" />
             </svg>
           </div>
           <div>
             <svg viewBox="0 0 75 75" width="200px">
-              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="2" fill="white" />
+              <path d="m5,22 18,-18 28,0 18,18 0,28 -18,18, -28,0 -18,-18z" stroke="black" stroke-width="0.5" fill="white" />
             </svg>
           </div>
       </div>
