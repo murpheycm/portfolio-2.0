@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-      <div className="grid content-evenly">
+      <div className="grid grid-cols-5 gap-4 content-evenly">
           {/* <div className="bg-gradient-to-b from-orange-200 to-rose-300 shadow-1xl dark:bg-neutral-600 max-w-screen">
             <img
               className="object-center max-w-screen"

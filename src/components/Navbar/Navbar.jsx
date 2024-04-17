@@ -5,7 +5,7 @@ export default function Navbar() {
         <div className="bg-purple text-white">
             <div className="container flex items-center justify-between">
               {/* Logo */}
-              <a className='logo mt-0 ml-0 w-20 h-20' href='#home'><img src="./images/logo_1.png"></img></a>
+              <a className='logo mt-0 ml-0 w-30 h-30' href='#home'><img src="./images/logo_1.png"></img></a>
 
               {/* Navbar */}
               <nav className='navbar flex justify-between items-center'>
