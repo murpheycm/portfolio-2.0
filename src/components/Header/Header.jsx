@@ -16,15 +16,15 @@ export default function Header() {
           </section>
 
           <section class="img-card">
-              <img src="./images/musikero.jpg" alt="" />
+              <img src="./images/graphic_data.png" alt="" />
           </section>
 
           <section class="img-card">
-              <img src="./images/lost-threads.jpg" alt="" />
+              <img src="./images/graphic_photography.png" alt="" />
           </section>
 
           <section class="img-card">
-              <img src="./images/logo_1.png" alt="" />
+              <img src="./images/graphic_design.png" alt="" />
           </section>
 
           <section class="img-card">

@@ -43,7 +43,7 @@ html {
     object-fit: fill;
     transition: 0.3s ease-in-out;
     flex: 0.75; 
-    background: papayawhip;
+    background: white;
   }
   
   .img-card img {
