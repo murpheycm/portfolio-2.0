@@ -47,8 +47,8 @@ html {
   }
   
   .img-card img {
-    min-height: 20vh;
-    min-width: 20vh;
+    min-height: 15vh;
+    min-width: 15vh;
   }
   
   .img-card:hover {
