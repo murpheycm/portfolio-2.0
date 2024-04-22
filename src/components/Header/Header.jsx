@@ -28,7 +28,7 @@ export default function Header() {
           </section>
 
           <section class="img-card">
-              <img src="./images/mm_retro.png" alt="" />
+              <img src="./images/graphic_apps.png" alt="" />
           </section>
         </section>
       </span>
