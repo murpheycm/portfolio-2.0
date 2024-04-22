@@ -12,7 +12,7 @@ export default function Header() {
 
         <section class="gallery">
           <section class="img-card">
-              <img src="./images/nightcap.JPG" alt="" />
+              <img src="./images/graphic_web_design.png" alt="web design" />
           </section>
 
           <section class="img-card">
