@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 export default function Navbar() {
     return (
-        <div className="bg-purple text-white">
-            <div className="container flex items-center justify-between">
+        <div className="bg-rose-700 text-white p-2 mt-0 fixed w-full z-10 top-0">
+            <div className="container flex items-center justify-between ">
               {/* Logo */}
               <a className='logo mt-0 ml-0 w-30 h-30' href='#home'><img src="./images/nav_logo.png"></img></a>
 
