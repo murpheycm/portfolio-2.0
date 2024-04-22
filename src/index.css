@@ -35,7 +35,7 @@ html {
     left: 0px;
     width: 100vh;
     border-radius: 1em;
-    height: 30vh;
+    height: 40vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -47,8 +47,8 @@ html {
   }
   
   .img-card img {
-    min-height: 30vh;
-    min-width: 30vh;
+    min-height: 20vh;
+    min-width: 20vh;
   }
   
   .img-card:hover {
