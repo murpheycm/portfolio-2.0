@@ -19,6 +19,7 @@ html {
   .background {
     display: grid;
     place-items: center;
+    margin-top: 4%;
     height: 80vh;
     padding: 5vh 0 0 0;
   }
