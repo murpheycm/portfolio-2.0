@@ -16,19 +16,19 @@ export default function Header() {
           </section>
 
           <section class="img-card">
-              <img src="./images/graphic_data.png" alt="" />
+              <img src="./images/graphic_data.png" alt="data analysis" />
           </section>
 
           <section class="img-card">
-              <img src="./images/graphic_photography.png" alt="" />
+              <img src="./images/graphic_photography.png" alt="photography" />
           </section>
 
           <section class="img-card">
-              <img src="./images/graphic_design.png" alt="" />
+              <img src="./images/graphic_design.png" alt="graphic design" />
           </section>
 
           <section class="img-card">
-              <img src="./images/graphic_apps.png" alt="" />
+              <img src="./images/graphic_apps.png" alt="applications" />
           </section>
         </section>
       </span>
