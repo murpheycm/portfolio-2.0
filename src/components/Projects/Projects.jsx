@@ -4,9 +4,9 @@ import React from 'react';
 export default function Projects() {
     return (
           <section id='projects'>
-                <div className="flex">
+                <div className="flex pt-60 pb-20">
                     <div className="w-screen h-auto">
-                        <div className="m-auto mt-40">
+                        <div className="">
                             <h1 className='text-white text-center font-extrabold text-4xl'>Projects</h1>
                         </div>
                     </div>
