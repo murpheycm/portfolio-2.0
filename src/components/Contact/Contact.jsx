@@ -14,34 +14,24 @@ export default function Contact() {
                         </p>
                         <form 
                             className="emailForm space-y-2 text-left text-black" 
-                            action="https://formsubmit.co/cmmurphey@gmail.com" 
+                            action="https://formsubmit.co/your-random-string" 
                             method="POST" 
                             enctype="multipart/form-data">
                             <input type="hidden" name="_template" value="table" />
-                            <div class="columns-2">
-                                <div>
-                                    <label for="fname" className="block mb-2 text-sm font-medium">
-                                        First Name
-                                    </label>
-                                    <input type="text" id="fname" className="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-rose-950 
-                                        focus:border-rose-950 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-rose-950 
-                                        dark:focus:border-rose-950 dark:shadow-sm-light" placeholder="John" required />
-                                </div>
-                                <div>
-                                    <label for="lname" className="block mb-2 text-sm font-medium">
-                                        Last Name
-                                    </label>
-                                    <input type="text" id="lname"  className="shadow-sm bg-gray-50 border border-gray-300  text-sm rounded-lg focus:ring-rose-950 
-                                        focus:border-rose-950 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-rose-950 
-                                        dark:focus:border-rose-950 dark:shadow-sm-light" placeholder="Doe" required />
-                                </div>
+                            <div>
+                                <label for="name" className="block mb-2 text-sm font-medium">
+                                    Full Name
+                                </label>
+                                <input type="text" id="name" name="name" className="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-rose-950 
+                                    focus:border-rose-950 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-rose-950 
+                                    dark:focus:border-rose-950 dark:shadow-sm-light" placeholder="John" required />
                             </div>
                             <div class="columns-2">
                                 <div>
-                                    <label htmlFor="companyName" className="block mb-2 text-sm font-medium">
+                                    <label for="company" className="block mb-2 text-sm font-medium">
                                         Company
                                     </label>
-                                    <input type="text" id="companyName" className="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-rose-950 
+                                    <input type="text" id="company" name="company" className="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-rose-950 
                                         focus:border-rose-950 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-950 
                                         dark:focus:border-rose-950 dark:shadow-sm-light" placeholder="N/A if None" required />
                                 </div>
@@ -66,7 +56,7 @@ export default function Contact() {
                                 <label for="message" className="block mb-2 text-sm font-medium">
                                     Message
                                 </label>
-                                <textarea id="message" name="message" rows="10" className="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-rose-950 
+                                <textarea id="message" name="message" rows="6" className="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-rose-950 
                                     focus:border-rose-950 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-950 
                                     dark:focus:border-rose-950 " placeholder="Your message here...">
                                 </textarea>
@@ -76,6 +66,7 @@ export default function Contact() {
                                     Send
                                 </button>
                             </div>
+                            <input type="hidden" name="_next" value="https://murpheycm.github.io/portfolio-2.0/#home" />    
                         </form>
                     </div>
                 </div>
