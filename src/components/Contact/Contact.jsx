@@ -17,6 +17,7 @@ export default function Contact() {
                             action="https://formsubmit.co/cmmurphey@gmail.com" 
                             method="POST" 
                             enctype="multipart/form-data">
+                            <input type="hidden" name="_template" value="table" />
                             <div class="columns-2">
                                 <div>
                                     <label for="fname" className="block mb-2 text-sm font-medium">
@@ -48,16 +49,16 @@ export default function Contact() {
                                     <label for="email" className="block mb-2 text-sm font-medium">
                                         Email
                                     </label>
-                                    <input type="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-rose-950 
+                                    <input type="email" name="email" id="email" className="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-rose-950 
                                         focus:border-rose-950 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-950 
                                         dark:focus:border-rose-950 dark:shadow-sm-light" placeholder="mail@testmail.com" required />
                                 </div>
                             </div>
                             <div>
-                                <label for="subject" className="block mb-2 text-sm font-medium">
+                                <label for="_subject" className="block mb-2 text-sm font-medium">
                                     Subject
                                 </label>
-                                <input type="text" id="subject" className="block p-3 w-full text-sm bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-rose-950 
+                                <input type="text" name="_subject" id="subject" className="block p-3 w-full text-sm bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-rose-950 
                                     focus:border-rose-950 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-950 
                                     dark:focus:border-rose-950  dark:shadow-sm-light" placeholder="I.e. In need of Web Design" required />
                             </div>
@@ -65,7 +66,7 @@ export default function Contact() {
                                 <label for="message" className="block mb-2 text-sm font-medium">
                                     Message
                                 </label>
-                                <textarea id="message" rows="6" className="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-rose-950 
+                                <textarea id="message" name="message" rows="10" className="block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-rose-950 
                                     focus:border-rose-950 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-rose-950 
                                     dark:focus:border-rose-950 " placeholder="Your message here...">
                                 </textarea>
