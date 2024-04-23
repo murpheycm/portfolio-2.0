@@ -117,7 +117,7 @@ html {
     grid-template-areas: "text img";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    align-items:center;
+    align-items: stretch;
     padding: 1.4em;
   }
   
