@@ -129,7 +129,7 @@ html {
     place-self: center;
     text-align: left;
     display: grid;
-    gap: 1em;
+    gap: 2em;
     place-items: start;
   }
   
@@ -139,11 +139,9 @@ html {
   }
   
   .card-content > figure > img {
-    width: 75%;
-    height: 75%;
-
+    width: 80%;
+    height: 80%;
     object-fit: contain;
-    /* border-radius: .4em; */
   }
   
   h1 {
