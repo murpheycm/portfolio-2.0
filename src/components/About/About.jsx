@@ -9,19 +9,20 @@ export default function About() {
                         <img 
                             src="./images/mm_retro.png"
                             id='about_image'
-                            className="mx-5 border-radius-full" 
+                            className="mx-5 border-radius-100" 
                             alt="" ></img>
                     </div>
-                    <div className="items-center m-5 pt-10 pb-10">
+                    <div className="items-center m-5 py-10 pr-20 pl-5">
                         <h1 className='text-white text-left'>Welcome!</h1>
-                        <p className='text-white text-left mt-5 flex'>
+                        <p className='text-white text-left flex'>
                             My name is Mackenzie!<br></br>
                             Made with Coffee in Richmond, VA.<br></br>
                             Biology nerd with a love for brain puzzles, regular puzzles, design, and bad AI-generated images.<br></br>
                             A full-stack web developer with a background in Microbiology, DNA Sequencing, and Bioinformatics.<br></br>
-                            The majority of my programming experience is in front-end web development, data analysis and engineering, and SQL database administration.<br></br>
+                            The majority of my programming experience is in front-end web development, data analysis, engineering, and query administration.<br></br>
                             I aim to help businesses by creating user-centric design and experiences.<br></br>
-                            Areas of interest, which you will see below, include: UX & Graphic Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
+                            Areas of interest, which you will see below, include: <br></br>
+                            UX & Graphic Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
                             Take a gander and reach out if you would like to talk more!
                             XO - Mack
                         </p>
