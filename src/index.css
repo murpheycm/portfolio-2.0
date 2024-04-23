@@ -84,7 +84,7 @@ html {
     gap: var(--card-margin);
     padding-bottom: calc(var(--numcards) * var(--card-top-offset));
     padding-top: calc(var(--numcards) * 10px);
-    margin-bottom: var(--card-margin);
+    margin-bottom: calc(var(--card-margin) + 20px);
   }
   
   #card-1 {
@@ -129,7 +129,7 @@ html {
     place-self: center;
     text-align: left;
     display: grid;
-    gap: 2em;
+    gap: 1em;
     place-items: start;
   }
   
