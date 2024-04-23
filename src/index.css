@@ -84,7 +84,7 @@ html {
     gap: var(--card-margin);
     padding-bottom: calc(var(--numcards) * var(--card-top-offset));
     padding-top: calc(var(--numcards) * 10px);
-    margin-bottom: calc(var(--card-margin) + 20px);
+    margin-bottom: calc(var(--card-margin) + 100px);
   }
   
   #card-1 {
