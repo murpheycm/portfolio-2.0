@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section class="mt-40" id='about' >
             <div className="flex">
-                <div className="flex flex-row mt-20 mb-4 w-screen h-auto">
+                <div className="flex flex-row mt-40 mb-4 w-screen h-auto">
                     <div className="items-center my-auto mx-auto">
                         <img 
                             src="./images/mm_retro.png"
@@ -12,7 +12,7 @@ export default function About() {
                             className="" 
                             alt="" ></img>
                     </div>
-                    <div className="items-center m-5 py-10 pr-20 pl-0">
+                    <div className="items-center m-5 py-5 pr-20 pl-0">
                         <h1 className='text-white text-left'>Welcome!</h1>
                         <p className='text-white text-left flex'>
                             My name is Mackenzie!<br></br>
@@ -32,7 +32,7 @@ export default function About() {
 
             {/* Cards*/}
             <div className="grid-cols-1 lg:grid-cols-4">
-                <div className="block justify-evenly space-y-0 space-x-0 mt-20 lg:flex lg:space-x-0  lg:space-y-0">
+                <div className="block justify-evenly space-y-0 space-x-0 mt-10 lg:flex lg:space-x-0  lg:space-y-0">
                     <div className="w-screen text-center lg:w-auto">
                         <h1 className='mt-3 p-2 text-white text-8xl'>
                             <i className="fa-brands fa-js"></i>
