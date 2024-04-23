@@ -16,6 +16,7 @@ html {
     padding: 0;
   }
   
+/* Header Gallery */
   .background {
     display: grid;
     place-items: center;
@@ -57,7 +58,7 @@ html {
   
 
 
-  
+/* Projects Gallery Cards */
   body {
     background: #131212;
     color: beige;

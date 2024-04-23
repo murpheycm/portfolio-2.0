@@ -31,45 +31,31 @@ export default function About() {
 
             {/* Cards*/}
             <div className="grid-cols-1 lg:grid-cols-4">
-                <div className=" bg-gradient-to-b from-orange-200 to-rose-300 block justify-around space-y-10 space-x-0 mt-32 lg:flex lg:space-x-0  lg:space-y-0">
-                    <div className="w-screen p-10 text-center lg:w-auto">
-                        <h1 className='mt-3 p-4 text-white text-8xl'>
+                <div className="block justify-evenly space-y-5 space-x-0 mt-32 lg:flex lg:space-x-0  lg:space-y-0">
+                    <div className="w-screen text-center lg:w-auto">
+                        <h1 className='mt-3 p-2 text-white text-8xl'>
                             <i className="fa-brands fa-js"></i>
                         </h1>
-                        <p className='p-5 text-white'>Javascript</p>
+                        <p className='p-5 text-white font-bold '>Javascript</p>
                     </div>
-                    <div className="w-screen p-10 text-center lg:w-auto">
-                        <h1 className='mt-3 p-4 text-white text-8xl'>
+                    <div className="w-screen text-center lg:w-auto">
+                        <h1 className='mt-3 p-2 text-white text-8xl'>
                             <i className="fa-brands fa-python"></i>
                         </h1>
-                        <p className='p-5 text-white'>
-                            Python
-                        </p>
+                        <p className='p-5 text-white font-bold'>Python</p>
                     </div>
-                    <div className="w-screen p-10 text-center lg:w-auto">
-                        <h1 className='mt-3 p-4 text-white text-8xl'>
+                    <div className="w-screen text-center lg:w-auto">
+                        <h1 className='mt-3 p-2 text-white text-8xl'>
                             <i className="fa-brands fa-html5"></i>
                         </h1>
-                        <p className='p-5 text-white'>
-                            HTML/CSS
-                        </p>
+                        <p className='p-5 text-white font-bold'>HTML/CSS</p>
                     </div>
-                    <div className="w-screen p-10 text-center lg:w-auto">
-                        <h1 className='mt-3 p-4 text-white text-8xl'>
+                    <div className="w-screen text-center lg:w-auto">
+                        <h1 className='mt-3 p-2 text-white text-8xl'>
                             <i className="fa-brands fa-react"></i>
                         </h1>
-                        <p className='p-5 text-white'>
-                            React
-                        </p>
+                        <p className='p-5 text-white font-bold'>React</p>
                     </div>
-                    {/* <div className="w-screen bg-gradient-to-b from-orange-100 to-rose-300 text-center rounded-lg lg:w-auto">
-                        <h1 className='mt-3 p-4 text-white text-8xl'>
-                            <i className="fa fa-github"></i>
-                        </h1>
-                        <p className='p-5 text-white'>
-                            Github
-                        </p>
-                    </div> */}
                 </div>
             </div>
             </section>
