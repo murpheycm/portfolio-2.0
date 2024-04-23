@@ -120,6 +120,7 @@ html {
     grid-template-rows: auto;
     align-items: stretch;
     margin: 10%;
+    padding: 3%;
   }
   
   .card-content > div {
