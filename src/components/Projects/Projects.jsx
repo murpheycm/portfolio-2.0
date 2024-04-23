@@ -7,7 +7,7 @@ export default function Projects() {
                 <div className="flex pt-60 pb-0">
                     <div className="w-screen h-auto">
                         <div className="">
-                            <h1 className='text-white text-center font-extrabold text-4xl'>Projects</h1>
+                            <h1 className='text-white text-center font-bold text-4xl'>Projects</h1>
                         </div>
                     </div>
                 </div>
