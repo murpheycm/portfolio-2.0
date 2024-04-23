@@ -20,7 +20,7 @@ html {
     display: grid;
     place-items: center;
     height: 80vh;
-    padding: 20vh 0 20vh 0;
+    padding: 20vh 0 50vh 0;
   }
   
   .gallery {
@@ -35,7 +35,7 @@ html {
     left: 0px;
     width: 100vh;
     /* border-radius: 1em; */
-    height: 35vh;
+    height: 30vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ html {
   }
   
   .img-card:hover {
-    flex: 1;
+    flex: 0.5;
   }
   
 
