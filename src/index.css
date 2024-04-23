@@ -83,7 +83,7 @@ html {
     grid-template-rows: repeat(var(--numcards), var(--card-height));
     gap: var(--card-margin);
     padding-bottom: calc(var(--numcards) * var(--card-top-offset));
-    padding-top: 10;
+    padding-top: calc(var(--numcards) * 10px);
     margin-bottom: var(--card-margin);
   }
   
@@ -119,7 +119,7 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: stretch;
-    padding: 1.4em;
+    padding: 10%;
   }
   
   .card-content > div {
