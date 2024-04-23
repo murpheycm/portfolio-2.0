@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --card-height: 20vw;
+    --card-height: 30vw;
     --card-margin: 20vw;
     --card-top-offset: 1em;
     --numcards: 4;
@@ -163,6 +163,7 @@ html {
     font-weight: 300;
     line-height: 1.42;
     font-size: 1.1rem;
+    font-family: 'Montserrat';
   }
   
   /* Animation */
