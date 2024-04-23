@@ -14,7 +14,7 @@ export default function Contact() {
                         </p>
                         <form 
                             className="emailForm space-y-2 text-left text-black" 
-                            action="https://formsubmit.co/your-random-string" 
+                            action="https://formsubmit.co/8b4e7ce6de5b97b9900c0967f6e4b778" 
                             method="POST" 
                             enctype="multipart/form-data">
                             <input type="hidden" name="_template" value="table" />
