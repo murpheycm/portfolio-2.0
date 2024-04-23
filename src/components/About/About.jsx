@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
     return (
-        <section class="mt-20" id='about' >
+        <section class="mt-40" id='about' >
             <div className="flex">
                 <div className="flex flex-row mb-4 w-screen h-auto">
                     <div className="items-center m-5 pt-10 pb-10">
