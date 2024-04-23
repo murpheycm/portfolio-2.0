@@ -3,7 +3,7 @@ import React from 'react';
 export default function Header() {
   return (
       <span class="background">
-        <div class="mt-20 mb-20">
+        <div class="mt-20 mb-10">
               <img
                 className="object-center max-w-screen"
                 src="./images/header_logo_3.png"
