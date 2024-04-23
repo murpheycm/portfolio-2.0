@@ -119,7 +119,7 @@ html {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: stretch;
-    padding: 10%;
+    margin: 10%;
   }
   
   .card-content > div {
