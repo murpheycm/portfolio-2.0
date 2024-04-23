@@ -47,12 +47,12 @@ html {
   }
   
   .img-card img {
-    min-height: 15vh;
-    min-width: 15vh;
+    min-height: 10vh;
+    min-width: 10vh;
   }
   
   .img-card:hover {
-    flex: 0.5;
+    flex: 1;
   }
   
 
