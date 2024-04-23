@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Projects() {
     return (
-          <section id='projects'>
+          <section id='projects' class="pb-40">
                 <div className="flex pt-60 pb-20">
                     <div className="w-screen h-auto">
                         <div className="">
