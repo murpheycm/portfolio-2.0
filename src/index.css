@@ -140,8 +140,8 @@ html {
   .card-content > figure > img {
     width: 75%;
     height: 75%;
-    object-fit: cover;
-    border-radius: .4em;
+    object-fit: contain;
+    /* border-radius: .4em; */
   }
   
   h1 {
