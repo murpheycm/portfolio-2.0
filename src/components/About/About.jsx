@@ -5,26 +5,26 @@ export default function About() {
         <section class="mt-40" id='about' >
             <div className="flex">
                 <div className="flex flex-row mb-4 w-screen h-auto">
+                    <div className="items-center my-auto mx-auto">
+                        <img 
+                            src="./images/mm_retro.png"
+                            id='about_image'
+                            className="mx-5 border-radius-full" 
+                            alt="" ></img>
+                    </div>
                     <div className="items-center m-5 pt-10 pb-10">
-                        <h1 className='text-white text-right text-4xl'>Welcome!</h1>
-                        <p className='text-white text-right mt-5'>
-                            It's me! Mackenzie!<br></br>
+                        <h1 className='text-white text-left'>Welcome!</h1>
+                        <p className='text-white text-left mt-5 flex'>
+                            My name is Mackenzie!<br></br>
                             Made with Coffee in Richmond, VA.<br></br>
                             Biology nerd with a love for brain puzzles, regular puzzles, design, and bad AI-generated images.<br></br>
                             A full-stack web developer with a background in Microbiology, DNA Sequencing, and Bioinformatics.<br></br>
                             The majority of my programming experience is in front-end web development, data analysis and engineering, and SQL database administration.<br></br>
                             I aim to help businesses by creating user-centric design and experiences.<br></br>
-                            Areas of interest, which you will see below, include: UX Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
+                            Areas of interest, which you will see below, include: UX & Graphic Design, Data Analyses and Visualization, Photography and fun with CSS.<br></br>
                             Take a gander and reach out if you would like to talk more!
                             XO - Mack
                         </p>
-                    </div>
-                    <div className="items-center my-auto mx-auto">
-                        <img 
-                            src="./images/mm_retro.png"
-                            id='about_image'
-                            className="mx-5" 
-                            alt="" ></img>
                     </div>
                 </div>
             </div>

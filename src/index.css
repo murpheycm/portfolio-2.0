@@ -61,7 +61,7 @@ html {
 /* Projects Gallery Cards */
   body {
     background: #131212;
-    color: beige;
+    color: white;
     text-align: center;
     /* padding-bottom: 20vh */
   }
@@ -114,7 +114,7 @@ html {
     box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1), 0 1em 2em rgba(0, 0, 0, 0.1);
     background: #fffaf2;
     color: #131212;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     overflow: hidden;
     display: grid;
     grid-template-areas: "text img";
@@ -151,13 +151,13 @@ html {
     font-weight: 300;
     font-size: 3rem;
     margin-bottom: 1rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat';
   }
   
   h2 {
     font-weight: bold;
     font-size: 2.5rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat';
     margin: 0;
   }
   
