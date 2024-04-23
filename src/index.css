@@ -104,7 +104,7 @@ html {
   
   .card {
     position: sticky;
-    top: 0;
+    top: 10;
     padding-top: calc(var(--index) * var(--card-top-offset));
   }
   
@@ -140,6 +140,7 @@ html {
   .card-content > figure > img {
     width: 75%;
     height: 75%;
+
     object-fit: contain;
     /* border-radius: .4em; */
   }
