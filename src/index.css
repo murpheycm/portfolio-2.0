@@ -84,7 +84,7 @@ html {
   }
 
   .card-content > .carousel-container {
-    grid-area: Slider;
+    grid-area: img;
     overflow: hidden;
   }
   
@@ -94,7 +94,7 @@ html {
     object-fit: contain;
   } 
 
-  .card-content > .carousel-container > Slider {
+  .card-content > .carousel-container > img {
     width: 90%;
     height: auto;
     object-fit: contain;
