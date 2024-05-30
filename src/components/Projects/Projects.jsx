@@ -1,7 +1,21 @@
-import React from 'react';
-
+import React, { useState }  from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export default function Projects() {
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        beforeChange: (current, next) => setCurrentSlide(next),
+    };
+    
+    
     return (
           <section id='projects' class="pb-40">
                 <div className="flex pt-40">
@@ -69,7 +83,7 @@ export default function Projects() {
                                     <h2>SpeedGarage, LLC.</h2>
                                     <p>A simple landing page with the business description and contact information for a local auto mechanic.</p>
                                 </div>
-                                <figure>
+                                {/* <figure>
                                     <img src="./images/speedgarage1.png" alt="card five - Speed Garage, LLC."></img>
                                 </figure>
                                 <figure>
@@ -77,7 +91,20 @@ export default function Projects() {
                                 </figure>
                                 <figure>
                                     <img src="./images/speedgarage3.png" alt="card five - Speed Garage, LLC."></img>
-                                </figure>
+                                </figure> */}
+                                <div className="carousel-container">
+                                    <Slider {...settings}>
+                                        <div>
+                                            <img src="./images/speedgarage1.png" alt="Speed Garage, LLC. - Image 1"></img>
+                                        </div>
+                                        <div>
+                                            <img src="./images/speedgarage2.png" alt="Speed Garage, LLC. - Image 2"></img>
+                                        </div>
+                                        <div>
+                                            <img src="./images/speedgarage3.png" alt="Speed Garage, LLC. - Image 3"></img>
+                                        </div>
+                                    </Slider>
+                                </div>
                             </div>
                         </li>
                     </ul>

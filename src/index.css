@@ -5,7 +5,7 @@
 :root {
     --card-height: 40vh;
     --card-margin: 20vw;
-    --card-top-offset: 1em;
+    --card-top-offset: 1.5em;
     --numcards: 5;
     --outline-width: 0px;
   }
@@ -139,8 +139,44 @@ html {
     gap: 1em;
     place-items: start;
   }
+
+  .carousel-container {
+    position: relative;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px; /* Adjust this value to your preference */
+    width: 100%;
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: inline-block;
+    width: 10px; /* Adjust this value to your preference */
+    height: 10px; /* Adjust this value to your preference */
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity of dots */
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+    background-color: white; /* Change the color of the active dot */
+}
+ 
   
-  .card-content > figure {
+  /* .card-content > figure {
     grid-area: img;
     overflow: hidden;
   }
@@ -149,7 +185,7 @@ html {
     width: 90%;
     height: auto;
     object-fit: contain;
-  }
+  } */
   
   h1 {
     font-weight: 300;
