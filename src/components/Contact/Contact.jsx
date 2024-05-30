@@ -3,14 +3,14 @@ import React from 'react';
 export default function Contact() {
     return (
         <section id='contact'>
-            <div className="py-8 lg:py-16 px-4 mx-auto mt-30 max-w-screen-md">
-                <div className='bg-orange-100 shadow-black shadow-2xl text-center rounded-lg lg:w-auto'>
+            <div className="contactBox py-8 lg:py-16 px-4 mx-auto mt-30 max-w-screen-md">
+                <div className='bg-white text-center rounded-lg lg:w-auto'>
                     <div className="p-6">
                         <h2 className="p-4 mb-4 text-4xl tracking-tight font-extrabold text-center text-rose-800">
-                            Get in Touch
+                            Inquiries
                         </h2>
                         <p className="mb-5 lg:mb-10 font-light text-center text-gray-900 sm:text-xl">
-                            Wanna talk? Send me a message!
+                            Let's get to work!
                         </p>
                         <form 
                             className="emailForm space-y-2 text-left text-black" 
