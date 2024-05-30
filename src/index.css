@@ -16,6 +16,23 @@ html {
     padding: 0;
     font-family: 'Montserrat';
   }
+
+  body {
+    color: white;
+    text-align: center;
+  }
+  
+  header, main {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 35vh;
+    display: grid;
+    place-items: center;
+    margin-bottom: 80px;
+  }
   
 /* Header Gallery */
   .background {
@@ -57,34 +74,15 @@ html {
     flex: 1.2;
   }
   
-
-
-/* Projects Gallery Cards */
-  body {
-    color: white;
-    text-align: center;
-  }
   
-  header, main {
-    width: 80vw;
-    margin: 0 auto;
-  }
-  
-  header {
-    height: 35vh;
-    display: grid;
-    place-items: center;
-    margin-bottom: 80px;
-  }
-  
-  
+  /* Projects */
  .card-content > figure {
     grid-area: img;
     overflow: hidden;
   }
 
   .card-content > .carousel-container {
-    grid-area: img;
+    grid-area: Slider;
     overflow: hidden;
   }
   
@@ -94,8 +92,8 @@ html {
     object-fit: contain;
   } 
 
-  .card-content > .carousel-container > img {
-    width: 90%;
+  .card-content > .carousel-container > Slider {
+    /* width: 90%; */
     height: auto;
     object-fit: contain;
   } 
