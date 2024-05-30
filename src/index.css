@@ -102,6 +102,10 @@ html {
   #card-4 {
     --index: 4;
   }
+
+  #card-5 {
+    --index: 5;
+  }
   
   .card {
     position: sticky;
