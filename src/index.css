@@ -77,106 +77,8 @@ html {
     margin-bottom: 80px;
   }
   
-  #cards {
-    list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(var(--numcards), var(--card-height));
-    gap: var(--card-margin);
-    padding-bottom: calc(var(--numcards) * var(--card-top-offset));
-    /* padding-bottom: calc(var(--numcards) * 30px); */
-    padding-top: calc(var(--numcards) * 5px);
-    margin-bottom: var(--card-margin);
-  }
   
-  #card-1 {
-    --index: 1;
-  }
-  
-  #card-2 {
-    --index: 2;
-  }
-  
-  #card-3 {
-    --index: 3;
-  }
-  
-  #card-4 {
-    --index: 4;
-  }
-
-  #card-5 {
-    --index: 5;
-  }
-  
-  .card {
-    position: sticky;
-    top: 0;
-    padding-top: calc(var(--index) * var(--card-top-offset));
-  }
-  
-  .card-content {
-    /* box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1), 0 1em 2em rgba(0, 0, 0, 0.1); */
-    background: #fffaf2;
-    color: #131212;
-    overflow: hidden;
-    display: grid;
-    grid-template-areas: "text img";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    align-items: stretch;
-    margin: 10%;
-    padding: 3%;
-  }
-  
-  .card-content > div {
-    grid-area: text;
-    width: 50%;
-    max-width: 800px;
-    place-self: center;
-    text-align: left;
-    display: grid;
-    gap: 1em;
-    place-items: start;
-  }
-
-  .carousel-container {
-    position: relative;
-}
-
-.slick-dots {
-    position: absolute;
-    bottom: 10px; /* Adjust this value to your preference */
-    width: 100%;
-    text-align: center;
-}
-
-.slick-dots li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.slick-dots li button {
-    font-size: 0;
-    line-height: 0;
-    display: inline-block;
-    width: 10px; /* Adjust this value to your preference */
-    height: 10px; /* Adjust this value to your preference */
-    padding: 5px;
-    cursor: pointer;
-    color: transparent;
-    border: none;
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.5); /* Adjust the color and opacity of dots */
-    border-radius: 50%;
-}
-
-.slick-dots li.slick-active button {
-    background-color: white; /* Change the color of the active dot */
-}
- 
-  
-  /* .card-content > figure {
+ .card-content > figure {
     grid-area: img;
     overflow: hidden;
   }
@@ -185,19 +87,17 @@ html {
     width: 90%;
     height: auto;
     object-fit: contain;
-  } */
+  } 
   
   h1 {
     font-weight: 300;
     font-size: 3rem;
     margin-bottom: 1rem;
-    /* font-family: 'Montserrat'; */
   }
   
   h2 {
     font-weight: bold;
     font-size: 2.5rem;
-    /* font-family: 'Montserrat'; */
     margin: 0;
   }
   
@@ -205,7 +105,6 @@ html {
     font-weight: 300;
     line-height: 1.42;
     font-size: 1.1rem;
-    /* font-family: 'Montserrat'; */
   }
 
 /* Footer */
