@@ -1,0 +1,39 @@
+/* Header Gallery */
+.background {
+    display: grid;
+    place-items: center;
+    height: 75vh;
+    padding: 20vh 0 50vh 0;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1200px;
+  }
+  
+  .img-card {
+    position: relative;
+    left: 0px;
+    width: 100vh;
+    border-radius: 1em;
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+    transition: 0.3s ease-in-out;
+    flex: 1; 
+    background: white;
+  }
+  
+  .img-card img {
+    min-height: 10vh;
+    min-width: 10vh;
+  }
+  
+  .img-card:hover {
+    flex: 1.2;
+  }
