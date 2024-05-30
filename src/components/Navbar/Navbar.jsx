@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function Navbar() {
     return (
@@ -10,10 +10,10 @@ export default function Navbar() {
               {/* Navbar */}
               <nav className='navbar flex justify-between items-center'>
                 <div id='navbar' className={`flex items-center text-white text-xl transition duration-500`}>
-                    <a href="#home" className='flex p-5 hover:text-violet-950'>Home</a>
-                    <a href="#about" className='flex p-5 hover:text-violet-950'>About</a>
-                    <a href="#projects" className='flex p-5 hover:text-violet-950'>Projects</a>
-                    <a href="#contact" className='flex p-5 hover:text-violet-950'>Contact</a>
+                    <a href="#home" className='flex p-5 hover:underline'>Home</a>
+                    <a href="#about" className='flex p-5 hover:underline'>About</a>
+                    <a href="#projects" className='flex p-5 hover:underline'>Projects</a>
+                    <a href="#contact" className='flex p-5 hover:underline'>Contact</a>
                 </div>
                 {/* Social Media*/}
                 <div className={`flex items-center`}>

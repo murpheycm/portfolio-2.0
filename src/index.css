@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-    --card-height: 30vw;
+    --card-height: 40vh;
     --card-margin: 20vw;
     --card-top-offset: 1em;
-    --numcards: 4;
+    --numcards: 5;
     --outline-width: 0px;
   }
 
@@ -83,8 +83,8 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(var(--numcards), var(--card-height));
     gap: var(--card-margin);
-    /* padding-bottom: calc(var(--numcards) * var(--card-top-offset)); */
-    padding-bottom: calc(var(--numcards) * 10px);
+    padding-bottom: calc(var(--numcards) * var(--card-top-offset));
+    /* padding-bottom: calc(var(--numcards) * 30px); */
     padding-top: calc(var(--numcards) * 5px);
     margin-bottom: var(--card-margin);
   }
