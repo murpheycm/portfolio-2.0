@@ -81,7 +81,7 @@ export default function Projects() {
                         <li class="card" id="card-5">
                             <div class="card-content">
                                 <div>
-                                    <h2>SpeedGarage, LLC.</h2>
+                                    <a href="https://murpheycm.github.io/speed-garage/" target="_blank"><h2>SpeedGarage, LLC.</h2></a>
                                     <p>A simple landing page with the business description and contact information for a local auto mechanic.</p>
                                 </div>
                                 {/* <figure>
