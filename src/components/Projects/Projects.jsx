@@ -32,7 +32,7 @@ export default function Projects() {
                         <li class="card" id="card-1">
                             <div class="card-content">
                                 <div>
-                                    <h2>Musikero</h2>
+                                    <a href="https://murpheycm.github.io/artist-search-API/" target="_blank"><h2>Musikero</h2></a>
                                     <p>A music app that allows users to search for artists of interest 
                                     and view similar artists, a sample playlist, and tour dates.</p>
                                 </div>
@@ -45,7 +45,7 @@ export default function Projects() {
                         <li class="card" id="card-2">
                             <div class="card-content">
                                 <div>
-                                    <h2>Lost Threads</h2>
+                                    <a href="" target="_blank"><h2>Lost Threads</h2></a>
                                     <p>A forum-based website catering to abandoned locations throughout Virginia.</p>
                                 </div>
                                 <figure>
@@ -57,7 +57,7 @@ export default function Projects() {
                         <li class="card" id="card-3">
                             <div class="card-content">
                                 <div>
-                                    <h2>NightCap</h2>
+                                    <a href="" target="_blank"><h2>NightCap</h2></a>
                                     <p> A react app for discovering mixed drinks in your area.</p>
                                 </div>
                                 <figure>
@@ -69,7 +69,7 @@ export default function Projects() {
                         <li class="card" id="card-4">
                             <div class="card-content">
                                 <div>
-                                    <h2>Book Search</h2>
+                                    <a href="" target="_blank"><h2>Book Search</h2></a>
                                     <p>A book search engine site using the books API.</p>
                                 </div>
                                 <figure>
