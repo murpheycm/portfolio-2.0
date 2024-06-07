@@ -73,7 +73,7 @@ export default function Projects() {
                                     <p>A book search engine site using the books API.</p>
                                 </div>
                                 <figure>
-                                    <img src="./images/MM.jpg" alt="card four - book search"></img>
+                                    <img src="./images/booksearch.jpg" alt="card four - book search"></img>
                                 </figure>
                             </div>
                         </li>
